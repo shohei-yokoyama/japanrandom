@@ -62,5 +62,5 @@
       <p>仕事疲れた。。</p>
     </div>
   </div>
-  </div>
+</div>
   @endsection

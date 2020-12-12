@@ -23,8 +23,8 @@
       <p>©️日本全国いったったー　/　</p>
       <a href="{{ route('service') }}">利用規約</a>
   </footer>
-  <script src="{{ asset('js/app.js') }}"></script>
-  <script src="{{ asset('js/index.js') }}"></script>
+  <script src="{{ mix('js/app.js') }}"></script>
+  <script src="{{ mix('js/index.js') }}"></script>
   
 </body>
 </html>
