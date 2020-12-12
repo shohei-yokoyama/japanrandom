@@ -25,9 +25,9 @@ Route::get("servie", function(){
     return view("term_of_service");
 })->name("service");
 
-Route::get('/auth/twitter', 'TwitterController@redirectToProvider');
-Route::get('/auth/twitter/callback', 'TwitterController@handleProviderCallback');
-Route::get("/auth/twitter/logout","TwitterController@logout");
+// Route::get('/auth/twitter', 'TwitterController@redirectToProvider');
+// Route::get('/auth/twitter/callback', 'TwitterController@handleProviderCallback');
+// Route::get("/auth/twitter/logout","TwitterController@logout");
 // Route::get("/tweet", "TweetController@tweet");
 // Auth::routes();
 

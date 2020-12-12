@@ -15,10 +15,10 @@ class TweetController extends Controller
             env('TWITTER_CLIENT_ID_ACCESS_TOKEN'),
             env('TWITTER_CLIENT_ID_ACCESS_TOKEN_SECRET'));
 
-            $tweet = $twitter->post("statuses/update", [
-            "status" => "飛ばされました！"
+            $result = $twitter->post("statuses/update", [
+            "status" => "test"
             ]);
 
-            var_dump($tweet);
+            // var_dump($tweet);
     }
 }
