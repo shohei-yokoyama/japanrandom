@@ -108,7 +108,7 @@ btn.addEventListener("click", function () {
 
   p.textContent = cityName; // cityname.appendChild(p);
 
-  tweetUrl = tweetUrl + cityName + "に飛ばされました！";
+  tweetUrl = tweetUrl + cityName + "に飛ばされました！" + "&hashtags=日本全国いったったー";
   console.log(tweetUrl);
   a.href = tweetUrl;
   content.classList.add("active");
