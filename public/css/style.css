@@ -1,0 +1,230 @@
+body {
+  width: 100%;
+  padding-top: 80px;
+}
+
+
+nav {
+  width: 100%;
+}
+
+.title {
+  margin-top: 50px;
+}
+.title h2 {
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+}
+
+.info{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.info span.jump {
+  display: inline-block;
+  background-color: white;
+  color: rgb(19, 167, 226);
+  border: 1px solid rgb(3, 128, 177);
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+
+/* .info span.jump:hover{
+  background-color: rgb(3, 128, 177);
+  color:white;
+} */
+
+.info span.strong {
+  font-weight: 800;
+}
+
+#start p {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+#start span {
+
+}
+
+.content {
+  /* display: flex; */
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: none;
+  border-radius: 12px;
+}
+
+.content.active {
+  display: flex;
+  position: relative;
+  animation: popUp 1s ease;
+}
+
+#btn button {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#btn p {
+  text-align: center;
+  padding-top: 8px;
+  font-size: 10px;
+}
+
+#onemore button  {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn-push.pushed {
+  display: none;
+}
+
+.img-block1 {
+  display: flex;
+  justify-content: center;
+}
+.img-block2 {
+  display: flex;
+  justify-content: center;
+}
+.img-block3 {
+  display: flex;
+  justify-content: center;
+}
+.fans h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.fans p {
+  text-align: center;
+}
+
+.fans img {
+  width: 150px;
+  height: 150px;
+  margin: 20px 50px;
+}
+
+.content {
+  margin-bottom: 50px;
+  width: 500px;
+  height: 250px;
+  background-color: rgb(169, 227, 250);
+  position: relative;
+}
+
+.content p {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 250px;
+}
+
+.share {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  justify-content: space-around;
+}
+
+.share a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(0, 183, 255);
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+
+.share a:hover {
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  padding-top: 30px;
+  position: sticky;
+  white-space: nowrap;
+}
+
+/* レスポンシブ */
+@media (max-width: 375px){
+  .content {
+    width: 100%;
+  }
+  .img-block1 {
+    display: block;
+    text-align: center;
+  }
+  .img-block2 {
+    display: block;
+    text-align: center;
+  }
+  .img-block3 {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* 利用規約 */
+.wrapHINAGATA {
+  width: 80%;
+  margin: 20px auto;
+  border:1px solid black;
+  padding: 20px 20px;
+  border-radius: 12px;
+}
+
+.wrapHINAGATA h1 {
+  font-size: 28px;
+}
+
+.wrapHINAGATA h2 {
+  font-size: 18px;
+}
+
+.tR {
+  text-align: right;
+}
+
+@keyframes popUp 
+{
+  0% {
+    opacity: 0;
+    top: 50px;
+  }
+  50% {
+    opacity: 0.8;
+    top: -50px;
+  }
+  75% {
+    opacity: 0.8;
+    top: 20px;
+  }
+  90% {
+    opacity: 0.8;
+    top: 10px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+  
+}
