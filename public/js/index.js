@@ -101,11 +101,16 @@ var btn = document.getElementById("btn");
 var btnPush = document.querySelector(".btn-push");
 var oneMore = document.getElementById("onemore");
 var p = document.querySelector(".city-name");
+var a = document.getElementById("tweet");
+var tweetUrl = "https://twitter.com/intent/tweet?url=https://www.japanramdom.site/&text=";
 btn.addEventListener("click", function () {
   var cityName = getCityData(); // const p = document.createElement("p");
 
   p.textContent = cityName; // cityname.appendChild(p);
 
+  tweetUrl = tweetUrl + cityName + "に飛ばされました！";
+  console.log(tweetUrl);
+  a.href = tweetUrl;
   content.classList.add("active");
   btnPush.classList.add("pushed");
   oneMore.classList.remove("pushed");
@@ -113,10 +118,13 @@ btn.addEventListener("click", function () {
   once: true
 });
 oneMore.addEventListener("click", function () {
+  preventDefault();
   var cityName = getCityData(); // const p = document.createElement("p");
 
   p.textContent = cityName; // cityname.appendChild(p);
 
+  tweetUrl = tweetUrl + cityName + "に飛ばされました！";
+  a.href = tweetUrl;
   content.classList.add("active");
   btnPush.classList.add("pushed");
 }, {

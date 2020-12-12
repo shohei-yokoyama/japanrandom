@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get("/", function(){
     return view("home");
-})->name("home");
+})->name("top");
 
 Route::get("servie", function(){
     return view("term_of_service");

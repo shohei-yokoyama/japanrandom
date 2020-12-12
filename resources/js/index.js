@@ -12,24 +12,34 @@ const oneMore = document.getElementById("onemore");
 
 const p = document.querySelector(".city-name");
 
+const a = document.getElementById("tweet");
+
+let tweetUrl = "https://twitter.com/intent/tweet?url=https://www.japanramdom.site/&text=";
+
 
 btn.addEventListener("click", ()=>{
   const cityName = getCityData();
   // const p = document.createElement("p");
   p.textContent = cityName;
   // cityname.appendChild(p);
+  tweetUrl = tweetUrl + cityName + "に飛ばされました！";
+  console.log(tweetUrl)
+  a.href = tweetUrl;
   content.classList.add("active");
   btnPush.classList.add("pushed");
-  oneMore.classList.remove("pushed");
+  oneMore.classList.remove("pushed");  
 }, {
   once: true
 });
 
 oneMore.addEventListener("click", ()=>{
+  preventDefault();
   const cityName = getCityData();
   // const p = document.createElement("p");
   p.textContent = cityName;
   // cityname.appendChild(p);
+  tweetUrl = tweetUrl + cityName + "に飛ばされました！";
+  a.href = tweetUrl;
   content.classList.add("active");
   btnPush.classList.add("pushed");
   }, {

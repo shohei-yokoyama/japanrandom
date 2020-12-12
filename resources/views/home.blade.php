@@ -15,11 +15,11 @@
   <p class="city-name" name="city_name"></p>
   <div class="share">
     <div>
-      <a href="">行ってみる</a>    
+    <a href="https://px.a8.net/svt/ejp?a8mat=3BSP80+30YESQ+3ZO8+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.sakuratravel.jp%2F%3Futm_source%3DA8%26utm_medium%3Daffiliate" rel="nofollow">行ってみる</a>    
     </div>
-    <!-- <div>
-      <a href="/tweet">Twitter</a>
-    </div> -->
+    <div>
+      <a id="tweet">Twitterに投稿する</a>
+    </div>
   </div>
 </div>
 <div id="btn" class="btn-push">
@@ -27,7 +27,7 @@
   <button class="btn btn-outline-primary">JUMP</button>
 </div>
 <div id="onemore" class="btn-push pushed">
-  <button class="btn btn-outline-primary">もう一回</button>
+  <button class="btn btn-outline-primary"><a href="{{ route('top') }}">もう一回</a></button>
 </div>
 <div class="fans">
   <h1>こんな人におすすめ！</h1>
