@@ -19,6 +19,6 @@ class TweetController extends Controller
             "status" => "飛ばされました！"
             ]);
 
-            dump($tweet);
+            var_dump($tweet);
     }
 }

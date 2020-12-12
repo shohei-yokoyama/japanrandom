@@ -17,6 +17,9 @@
     <div>
       <a href="">行ってみる</a>    
     </div>
+    <!-- <div>
+      <a href="/tweet">Twitter</a>
+    </div> -->
   </div>
 </div>
 <div id="btn" class="btn-push">
