@@ -12,13 +12,13 @@
   <p><span>↓</span>さっそくはじめる<span>↓</span></p>
 </div>
 <div class="content">
-  <p class="city-name"></p>
+  <p class="city-name" name="city_name"></p>
   <div class="share">
     <div>
       <a href="">行ってみる</a>    
     </div>
     <div>
-      <a href="">Twitter</a>
+      <a href="/tweet">Twitter</a>
     </div>
   </div>
 </div>

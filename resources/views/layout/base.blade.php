@@ -14,7 +14,6 @@
 <body>
   <nav class="navbar navbar-light fixed-top" style="background-color: #e3f2fd;">
     <a class="navlink" href="{{ route('home') }}">日本全国いったったー</a>
-    <a href="#"><button class="login btn btn-outline-info">ログイン</button></a>
   </nav>
   <div class="body">
     @yield("content")
