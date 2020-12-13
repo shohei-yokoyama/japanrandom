@@ -10,11 +10,17 @@
   gtag('js', new Date());
 
   gtag('config', 'G-RMDXHDM06M');
-</script>
-<script src="https://kit.fontawesome.com/a0c44b4ad6.js" crossorigin="anonymous"></script>
+  </script>
+  <script src="https://kit.fontawesome.com/a0c44b4ad6.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="JQfrPqskpklrH8bMtAWftQgnQWFk3HSmeQ9kbJg9UCc" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@yakomass" />
+<meta property="og:url" content="https://www.japanramdom.site/" />
+<meta property="og:title" content="日本全国いったったー" />
+<meta property="og:description" content="ランダムで日本全国1724つの市区町村にJUMPするよー" />
+<meta property="og:image" content="{{ asset('img/screenshot.png') }}" />
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
   <link href="{{ mix('css/style.css') }}" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
