@@ -7,6 +7,7 @@
 <div class="info">
   <p><span class="jump">JUMP</span>ボタンを押すとランダムで<span class="strong">日本全国1724市区町村</span>のうち1つが表示されます。</p>
   <p>Twitterで共有するも良し、実際に行ってみるも良し、いろんな使い方で楽しんでください！</p>
+  <p class="attention">※うまく表示されない場合は一度ページを更新してからお試しください。</p>
 </div>
 <div id="start">
   <p><span>↓</span>さっそくはじめる<span>↓</span></p>
@@ -15,7 +16,7 @@
   <p class="city-name" name="city_name"></p>
   <div class="share">
     <div>
-    <a href="https://px.a8.net/svt/ejp?a8mat=3BSP80+30YESQ+3ZO8+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.sakuratravel.jp%2F%3Futm_source%3DA8%26utm_medium%3Daffiliate" rel="nofollow"><i class="fas fa-plane"></i>行ってみる</a>    
+    <a href="https://px.a8.net/svt/ejp?a8mat=3BSP80+30YESQ+3ZO8+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.sakuratravel.jp%2F%3Futm_source%3DA8%26utm_medium%3Daffiliate" rel="nofollow" target="_blank"><i class="fas fa-plane"></i>行ってみる</a>    
     </div>
     <div>
       <a id="tweet" target="_blank"><i class="fab fa-twitter"></i>Twitterに投稿する</a>

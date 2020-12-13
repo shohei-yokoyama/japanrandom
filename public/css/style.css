@@ -47,6 +47,12 @@ nav {
   margin: 30px 0;
 }
 
+.attention {
+  color: red;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
 .content {
   /* display: flex; */
   width: 100%;
