@@ -10,6 +10,7 @@
 
   gtag('config', 'G-RMDXHDM06M');
 </script>
+<script src="https://kit.fontawesome.com/a0c44b4ad6.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="JQfrPqskpklrH8bMtAWftQgnQWFk3HSmeQ9kbJg9UCc" />
@@ -31,7 +32,7 @@
     @yield("content")
   </div>
   <footer class="footer">
-      <p>©️日本全国いったったー　/　</p>
+      <p>©️2020 日本全国いったったー　/　</p>
       <a href="{{ route('service') }}">利用規約</a>
   </footer>
   <script src="{{ mix('js/app.js') }}"></script>

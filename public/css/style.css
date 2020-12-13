@@ -144,7 +144,7 @@ nav {
   text-decoration: none;
   color: black;
   background-color: #00b7ff;
-  width: 120px;
+  width: 150px;
   height: 40px;
   line-height: 40px;
   text-align: center;
@@ -154,6 +154,12 @@ nav {
 
 .share a:hover {
   opacity: 1;
+}
+
+.fa-twitter,
+.fa-plane {
+  color: white;
+  padding-right: 8px;
 }
 
 .footer {

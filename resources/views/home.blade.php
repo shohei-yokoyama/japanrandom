@@ -15,10 +15,10 @@
   <p class="city-name" name="city_name"></p>
   <div class="share">
     <div>
-    <a href="https://px.a8.net/svt/ejp?a8mat=3BSP80+30YESQ+3ZO8+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.sakuratravel.jp%2F%3Futm_source%3DA8%26utm_medium%3Daffiliate" rel="nofollow">行ってみる</a>    
+    <a href="https://px.a8.net/svt/ejp?a8mat=3BSP80+30YESQ+3ZO8+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.sakuratravel.jp%2F%3Futm_source%3DA8%26utm_medium%3Daffiliate" rel="nofollow"><i class="fas fa-plane"></i>行ってみる</a>    
     </div>
     <div>
-      <a id="tweet">Twitterに投稿する</a>
+      <a id="tweet" target="_blank"><i class="fab fa-twitter"></i>Twitterに投稿する</a>
     </div>
   </div>
 </div>
