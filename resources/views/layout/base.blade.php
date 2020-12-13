@@ -3,6 +3,7 @@
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RMDXHDM06M"></script>
+<script data-ad-client="ca-pub-5771699898920773" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -37,6 +38,5 @@
   </footer>
   <script src="{{ mix('js/app.js') }}"></script>
   <script src="{{ mix('js/index.js') }}"></script>
-  
 </body>
 </html>
