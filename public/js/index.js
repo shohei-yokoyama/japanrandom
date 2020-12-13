@@ -17329,6 +17329,9 @@ var _require = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.j
     get = _require.get; // const { split } = require("lodash");
 
 
+window.addEventListener("load", function () {
+  getCityData();
+});
 var content = document.querySelector(".content");
 var btn = document.getElementById("btn");
 var btnPush = document.querySelector(".btn-push");

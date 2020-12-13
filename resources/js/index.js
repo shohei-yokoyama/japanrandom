@@ -4,6 +4,9 @@ const { get } = require("lodash");
 
 // const { split } = require("lodash");
 
+window.addEventListener("load", ()=>{
+  getCityData();
+});
 const content = document.querySelector(".content");
 
 const btn = document.getElementById("btn");
