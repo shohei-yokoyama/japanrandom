@@ -163,7 +163,8 @@ nav {
 }
 
 .fa-twitter,
-.fa-plane {
+.fa-plane,
+.fa-shopping-basket {
   color: white;
   padding-right: 8px;
 }
@@ -213,6 +214,20 @@ nav {
   .img-block3 {
     display: block;
     text-align: center;
+  }
+
+  .share a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    background-color: #00b7ff;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    opacity: 1;
   }
 }
 
@@ -302,5 +317,78 @@ nav {
   display: block;
   padding: 10px 10px;
   border-color: #00b7ff;
+}
+
+.food {
+  cursor: pointer;
+}
+
+.food p {
+  text-align: center;
+}
+
+.select-food {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.select-food input {
+  visibility: hidden;
+}
+
+.select-food label {
+  color: #ddd;
+}
+
+.select-food label:hover {
+  color: #ff9100;
+}
+
+.select-food input[type=radio]:checked + label {
+  color: #ff9100;
+  border: 3px solid red;
+}
+
+.select-food li {
+  padding: 12px 12px;
+  cursor: pointer;
+}
+
+.select-food p {
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.select-food img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ff9100;
+  cursor: pointer;
+}
+
+.food-view {
+  background-color: #ffa600;
+}
+
+@media (max-width: 375px) {
+  .select-food img {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+  }
+
+  .select-food {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
 }
 

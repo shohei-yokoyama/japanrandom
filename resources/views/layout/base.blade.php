@@ -30,15 +30,15 @@
   <meta name="description" content="ボタンを押すとランダムで日本全国1724市区町村のうち1つが表示されます。Twitterで共有するも良し、実際に行ってみるも良し、いろんな使い方で楽しんでください！">
 </head>
 <body>
-  <nav class="navbar navbar-light fixed-top" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-light navbar-expand fixed-top" style="background-color: #e3f2fd;">
     <a class="navbar-brand" href="{{ route('top') }}">日本全国いったったー</a>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="{{ route('city') }}">都道府県のみ表示する</a>
       </li>
-      <!-- <li class="nav-item">
+      <li class="nav-item">
         <a class="nav-link" href="{{ route('food') }}">食べ物から探す</a>
-      </li> -->
+      </li>
     <!-- <a href="/auth/twitter"><button class="login btn btn-outline-info">ログイン</button></a>
     <a href="/auth/twitter/logout">ログアウト</a> -->
     </ul>
@@ -51,7 +51,6 @@
       <a href="{{ route('service') }}">利用規約</a>
   </footer>
   <script src="{{ mix('js/app.js') }}"></script>
-  <!-- <script src="{{ mix('js/index.js') }}"></script> -->
     @yield("js")
 </body>
 </html>

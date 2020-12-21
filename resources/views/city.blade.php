@@ -19,7 +19,10 @@
     <a href="https://px.a8.net/svt/ejp?a8mat=3BSP80+30YESQ+3ZO8+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.sakuratravel.jp%2F%3Futm_source%3DA8%26utm_medium%3Daffiliate" rel="nofollow" target="_blank"><i class="fas fa-plane"></i>行ってみる</a>    
     </div>
     <div>
-      <a id="tweet" target="_blank"><i class="fab fa-twitter"></i>Twitterに投稿する</a>
+    <a href="//af.moshimo.com/af/c/click?a_id=2344756&p_id=3172&pc_id=7409&pl_id=41472&guid=ON" rel="nofollow" target="_blank"><i class="fas fa-shopping-basket"></i>ふるさと納税</a><img src="//i.moshimo.com/af/i/impression?a_id=2344756&p_id=3172&pc_id=7409&pl_id=41472" width="1" height="1" style="border:none;">
+    </div>
+    <div>
+      <a id="tweet" target="_blank"><i class="fab fa-twitter"></i>Twitterに投稿</a>
     </div>
   </div>
 </div>
