@@ -20,6 +20,12 @@ use Illuminate\Support\Facades\Route;
 Route::get("/", function(){
     return view("home");
 })->name("top");
+Route::get("/city", function(){
+    return view("city");
+})->name("city");
+Route::get("/food", function(){
+    return view("food");
+})->name("food");
 
 Route::get("servie", function(){
     return view("term_of_service");

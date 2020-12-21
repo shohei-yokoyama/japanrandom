@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -17315,10 +17315,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./resources/js/index.js":
-/*!*******************************!*\
-  !*** ./resources/js/index.js ***!
-  \*******************************/
+/***/ "./resources/js/sub.js":
+/*!*****************************!*\
+  !*** ./resources/js/sub.js ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17343,38 +17343,10 @@ var num;
 var tweetUrl = "https://twitter.com/intent/tweet?url=https://www.japanramdom.site/&text=";
 var cityList = ["日本", "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県", "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県", "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"];
 
-function getCityValue() {
-  var cityOnly = document.getElementById("city-only");
-  var cityValue = cityOnly.value;
-  return cityValue;
-}
-
 function getCityData() {
-  var cityValue = getCityValue();
-
-  if (cityValue === "0") {
-    num = String(Math.floor(Math.random() * 48));
-  } else {
-    num = cityValue;
-  }
-
+  num = String(Math.floor(Math.random() * 48));
   var cityName = cityList[num];
-
-  if (num.length != 1) {
-    num = num;
-  } else {
-    num = "" + 0 + num;
-  }
-
-  var url = "https://www.land.mlit.go.jp/webland/api/CitySearch?area=" + num;
-  fetch(url).then(function (response) {
-    return response.json();
-  }).then(function (data) {
-    var i = data.data.length;
-    i = Math.floor(Math.random() * i);
-    return name = cityName + data.data[i].name;
-  });
-  return name;
+  return cityName;
 }
 
 btn.addEventListener("click", function () {
@@ -17385,7 +17357,6 @@ btn.addEventListener("click", function () {
   content.classList.add("active");
   btnPush.classList.add("pushed");
   oneMore.classList.remove("pushed");
-  selectValue.classList.add("active");
 }, {
   once: false
 });
@@ -17402,14 +17373,14 @@ oneMore.addEventListener("click", function () {
 
 /***/ }),
 
-/***/ 1:
-/*!*************************************!*\
-  !*** multi ./resources/js/index.js ***!
-  \*************************************/
+/***/ 2:
+/*!***********************************!*\
+  !*** multi ./resources/js/sub.js ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/yokoyamashouhei/twitter_app1/resources/js/index.js */"./resources/js/index.js");
+module.exports = __webpack_require__(/*! /Users/yokoyamashouhei/twitter_app1/resources/js/sub.js */"./resources/js/sub.js");
 
 
 /***/ })

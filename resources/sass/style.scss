@@ -176,6 +176,19 @@ nav {
   white-space: nowrap;
 }
 
+.select-value {
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  &.active {
+    display: block;
+  }
+}
+
+.select-value p {
+  font-size: 12px !important;
+}
+
 /* レスポンシブ */
 @media (max-width: 375px){
   .content {
@@ -239,4 +252,17 @@ nav {
     top: 0;
   }
   
+}
+
+// セレクトボックス
+#city-only {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: block;
+  padding: 10px 10px;
+  border-color: rgb(0, 183, 255);
 }
